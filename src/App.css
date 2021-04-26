@@ -9,13 +9,21 @@
   padding: 0;
 }
 
+/* Background */
+.App{
+}
+
 /* Header */
 header{
   font-family: var(--titre);
-  display: flex;
-  justify-content: space-between;
   padding: 2rem;
   background-color: rgb(94, 94, 94);
+}
+header h1{
+  font-size: 5rem;
+}
+header p{
+  font-size: 2rem;
 }
 
 .infos{
@@ -32,26 +40,85 @@ header{
 }
 
 /* NavBar */
-.nav{
+.barnav{
+
+}
+.navig{
   background-color: rgb(156, 144, 129);
   display: flex;
+  justify-content: center;
+  padding-left: 0;
   gap: 3rem;
-  height: 14rem;
-  
+  height: 6rem;
+  list-style: none; 
 }
-.nav-item a{
+.navig-item a{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   color: rgb(255, 255, 255);
-  height: 90%;
-  font-size: 2rem;
+  height: 100%;
+  font-size: 0.75rem;
   text-decoration: none;
   font-family: var(--texte);
 }
-.nav-item a svg{
+.navig-item a svg{
 height: 100%;
-padding: 1rem;
+}
+
+/* Sections */
+section{
+  background-color:white;
+}
+.titre{
+  padding: 2rem;
+  text-align: center;
+  background-color: blanchedalmond;
+border-top-left-radius: 0.25rem;
+border-top-right-radius: 0.25rem;
+font-family: var(--titre);
+}
+.titre h2{
+  font-size: 3rem;
+}
+.content{
+  font-family: var(--texte);
+}
+.article-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.details{
+  font-style: italic;
+}
+.skills{
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.skills button{
+background-color:rgb(35, 228, 218);
+transition: 0.4s ease;
+border: none;
+padding: 0.25rem;
+border-radius: 0.25rem;
+}
+.skills button:hover{
+  background-color: tomato;
+
+}
+
+/* Responsive Part */
+/* Header */
+@media only screen and (max-width:600px){
+.header{
+
+}
 }
 

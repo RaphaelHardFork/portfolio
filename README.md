@@ -25,7 +25,13 @@ Dans le fichier .js ➡️ *Select Language Mode* (à coté de *Go live*) ➡️
 [GoogleFonts](https://github.com/RaphaelHardFork/docs-perso/blob/main/googleFonts.md)
 
 ## Utilisation de Bootstrap
-Voir cvReact ou autre exo
+`yarn add bootstrap@next`
+
+Puis l'importer pour utiliser les class :  
+```js
+import "bootstrap/dist/css/bootstrap.css"
+```
+
 
 ## Bonnes pratiques
 Créer un fichier *components*
