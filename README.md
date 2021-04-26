@@ -8,7 +8,7 @@
   - App.test.js
   - logo.svg
   - vider le App.css
-  - le contenu de `App.js` (import logo, le contenu de return)
+  - le contenu de `App.css` (import logo, le contenu de return)
 - Dans public : 
   - logo192.png
   - logo512.png
