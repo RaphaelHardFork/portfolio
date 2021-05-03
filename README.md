@@ -35,3 +35,6 @@ import "bootstrap/dist/css/bootstrap.css"
 
 ## Bonnes pratiques
 Créer un fichier *components*
+
+## Utilisation des hooks
+Voir [Star Wars API](https://github.com/RaphaelHardFork/starwars-api-v1) pour useEffect & useReducer utilisés pour recuillir de la données.
